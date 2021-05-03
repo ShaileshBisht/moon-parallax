@@ -31,3 +31,27 @@ header .logo {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 6px 15px;
+  border-radius: 5px;
+}
+
+header ul li a:hover,
+header ul li a:focus {
+  background: #fff;
+  color: #2b1055;
+}
