@@ -5,11 +5,13 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
   min-height: 100vh;
   background: linear-gradient(#2b1055, #7597de);
+  overflow-x: hidden;
 }
 
 header {
@@ -98,8 +100,9 @@ section img#mountains_front {
 #text {
   position: absolute;
   color: #fff;
+  right: -350px;
   white-space: nowrap;
-  font-size: 7.5vw;
+  font-size: 6vw;
   z-index: 9;
 }
 
@@ -115,6 +118,7 @@ section img#mountains_front {
 }
 
 .sec {
+  z-index: 1000;
   position: relative;
   padding: 100px;
   background-color: #1c0522;
